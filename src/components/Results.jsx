@@ -3,7 +3,7 @@ export default function Results({ results }) {
 		<div>
 			{results.map((results) => (
 				<div key={results.id}>
-					<h2>{results.overview}</h2>
+					<h2>{results.original_title}</h2>
 				</div>
 			))}
 		</div>
