@@ -13,6 +13,7 @@ export default function Card({ results }) {
 					}`}
 					width={500}
 					height={300}
+					alt={'bunyod'}
 					className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300'
 				></Image>
 				<div className='p-2'>
