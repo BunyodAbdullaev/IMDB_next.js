@@ -8,7 +8,6 @@ export default function Navbar() {
 				<NavbarItem title='Trending ' param='fetchTrending' />
 				<NavbarItem title='Top Rated' param='fetchTopRated' />
 			</div>
-			console.log("error")
 		</Suspense>
 	);
 }
