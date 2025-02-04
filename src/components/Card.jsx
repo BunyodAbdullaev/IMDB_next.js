@@ -13,9 +13,9 @@ export default function Card({ results }) {
 					}`}
 					width={500}
 					height={300}
-					alt={'bunyod'}
-					className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300'
-				></Image>
+					alt={results.title}
+					className='sm:rounded-t-lg h-40 object-cover group-hover:opacity-75 transition-opacity duration-300'
+				/>
 				<div className='p-2'>
 					<p className='line-clamp-2 text-md'>{results.overview}</p>
 					<h2 className='text-lg font-bold truncate'>
